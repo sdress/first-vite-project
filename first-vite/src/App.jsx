@@ -9,13 +9,11 @@ function App() {
   return (
     <>
       <div>
-        <h1 className='title'>Hello Dojo!</h1>
-        <h3>Things I need to do:</h3>
-        <li>Learn React</li>
-        <li>Climb Mt. Everest</li>
-        <li>Run a marathon</li>
-        <li>Feed the dogs</li>
+        <h1 className='title'>Johannesen & Sons Greenscaping</h1>
+        <h3>Save the planet (and your waterbill) with Johannesen Greenscaping</h3>
       </div>
+
+      
     </>
   )
 }
