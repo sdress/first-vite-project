@@ -3,7 +3,18 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #191A19;
+  /* 
+  color1: #191A19;
+  color2: #1E5128;
+  color3: #4E9F3D;
+  color4: #D8E9A8;
+  */
 }
+/* 
+#header{
+  background-color: #1E5128;
+} */
 
 .logo {
   height: 6em;
