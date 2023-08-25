@@ -6,8 +6,8 @@ const Project = (props) => {
     return (
         <div id="image-slider">
         <ImgComparisonSlider>
-            <img slot="first" src="src/assets/before1.webp" />
-            <img slot="second" src="src/assets/after1edited.jpg" />
+            <img slot="first" src="src/assets/before1.webp" alt="An untended backyard area" />
+            <img slot="second" src="src/assets/after1edited.jpg" alt="A well-maintained backyard patio space" />
         </ImgComparisonSlider>
         </div>
     );
