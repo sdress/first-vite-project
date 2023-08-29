@@ -55,6 +55,20 @@
   float: right;
 }
 
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
