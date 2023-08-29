@@ -1,9 +1,9 @@
 #root {
-  max-width: 1280px;
-  margin: auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+  /* margin: auto; */
+  /* padding: 2rem; */
   text-align: center;
-  /* background-color: #191A19; */
+  background-color: #191A19;
   /* 
   color1: #191A19;
   color2: #1E5128;
@@ -12,9 +12,48 @@
   */
 }
 
-/* #header{
-  background-color: #1E5128;
-} */
+#navbar {
+  overflow: hidden;
+  background-color: #1E5128F0;
+  color: whitesmoke;
+  padding: 90px 10px;
+  transition: 0.4s; 
+  position: fixed;
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #name {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
 
 .logo {
   height: 6em;
