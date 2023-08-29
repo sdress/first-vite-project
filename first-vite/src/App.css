@@ -1,5 +1,6 @@
 #root {
   /* max-width: 1280px; */
+  width: 100%;
   /* margin: auto; */
   /* padding: 2rem; */
   text-align: center;
@@ -12,6 +13,11 @@
   */
 }
 
+#body{
+  padding: 2em;
+  color: whitesmoke;
+}
+
 #navbar {
   overflow: hidden;
   background-color: #1E5128F0;
@@ -20,7 +26,7 @@
   transition: 0.4s; 
   position: fixed;
   width: 100%;
-  top: 0; /* At the top */
+  top: 0;
   z-index: 99;
 }
 
@@ -71,42 +77,6 @@
 
 #carouselExample {
   margin: 4em;
-  padding: 20px;
+  padding-top: 20%;
   /* position: relative; */
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
