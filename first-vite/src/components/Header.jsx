@@ -8,8 +8,8 @@ const Header = (props) => {
                 <h5>Save the planet (and your waterbill) with Johannesen Greenscaping</h5>
             </div>
             <div id="navbar-right">
-                <a href="">See Projects</a>
-                <a href="">Contact</a>
+                <a href="#carouselExample">See Projects</a>
+                <a href="#contact">Contact Us</a>
             </div>
         </div>
     );
