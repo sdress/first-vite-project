@@ -5,6 +5,7 @@ import './App.css';
 // import Project from './components/ImgSlider';
 import Header from './components/Header';
 import ImgSlider from './components/ImgSlider';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         </a>
       </div>
 
+      <Contact />
     </div>
   );
 }
