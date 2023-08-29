@@ -10,11 +10,14 @@ import Contact from './components/Contact';
 function App() {
 
   return (
-    <div className='App'>
+    <div className='App' id='root'>
       <Header />
 
-      <h1>Project Examples:</h1>
+      <div id='body'>
+
+
       <div id="carouselExample" className="carousel slide" data-ride="carousel">
+      <h1>Project Examples:</h1>
         <div className="carousel-inner">
 
           <div className="carousel-item active">
@@ -44,7 +47,11 @@ function App() {
         </a>
       </div>
 
-      <Contact />
+      <div id='contact'>
+        <Contact />
+      </div>
+
+      </div>
     </div>
   );
 }
