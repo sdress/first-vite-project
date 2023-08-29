@@ -18,8 +18,8 @@ function App() {
 
 
       <div id="carouselExample" className="carousel slide" data-ride="carousel">
-      <h1>Project Examples:</h1>
         <div className="carousel-inner">
+          <h1>Project Examples:</h1>
 
           <div className="carousel-item active">
             <ImgSlider image1={"src/assets/before2edited.jpg"} image2={"src/assets/after2edited.jpg"} alt="Second Before and After comparison with image slider" className="d-block w-100" />
